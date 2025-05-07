@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS */
+.btn-laravel {
+    @apply bg-laravel text-white px-4 py-2 rounded hover:bg-red-700;
+}
